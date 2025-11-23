@@ -34,13 +34,15 @@ This project relies heavily on advanced preprocessing to maximize model performa
 * **Validation Strategy:** Stratified K-Fold (10 Splits) to maintain class balance across folds.
 
 ## 📈 Results
-The model was evaluated using the Area Under the Curve (AUC) metric.
+The model was evaluated using the Area Under the Curve (AUC) metric on Kaggle.
 
 | Metric | Score |
 | :--- | :--- |
-| **Overall OOF AUC** | **0.7878** |
+| **Public Score** | **0.78555** |
+| **Private Score** | **0.78688** |
 
-*Note: OOF (Out-of-Fold) predictions ensure that the metric reflects how the model generalizes to unseen data.*
+*Note: The consistency between Public and Private scores demonstrates the model's stability and lack of overfitting.*
+
 
 ## 💻 Installation & Usage
 
